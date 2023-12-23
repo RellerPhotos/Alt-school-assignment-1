@@ -1,0 +1,120 @@
+.body{
+    height: 100vh;
+    width: 95vw;
+    display:grid;
+    grid-template-rows: 0.025fr 1fr 10px;
+    overflow:hidden;
+}
+
+.body2{
+    height: 170vh;
+    width: 95vw;
+    display:grid;
+    grid-template-rows: 0.025fr 1fr 0.025fr;
+    background-color: #fbfcf8;
+}
+
+.headerNav:active{
+    color: red;
+}
+
+.main{
+    padding-top: 30px;
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 20px;
+    overflow:hidden;
+}
+
+/*
+header{
+    margin-top: -8px;
+    background-color: white;
+    position: fixed;
+    width: 95vw;
+} */
+
+
+.content{
+overflow-y: scroll;
+height: 75vh;
+}
+
+.footmain{
+    margin-top:-20px;
+}
+
+.h1color{
+    color: #151e3d;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.pad{
+    padding-bottom: 50px;
+}
+
+.padd{
+    padding-left: 14px;
+}
+
+a:hover{
+    color:orange;
+}
+
+.col{
+    color:deepskyblue;
+}
+
+.body3{
+    display:flexbox;
+    flex-direction: row;
+    width:45vw;
+    height: 125vh;
+    background-color: white;
+    padding: 1px 30px 160px 30px;
+}
+
+.mainspecial{
+    margin: 0 auto 0 auto
+}
+
+/*form{
+    width:56vw;
+    height:70vh
+
+}*/
+
+input{
+    padding: 15px 0 15px 10px;
+    width: 300px;
+    
+}
+
+
+.label{
+    padding: 5px 20px 5px 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.submit{
+    padding:20px 0 20px 0;
+    margin: 0 0 0 0;
+    width: 98%
+}
+
+.red{
+    color:red;
+}
+
+.firstspan{
+    float: left;
+    width: 100%;
+    
+}
+
+.secondspan{
+    float: left;
+    /*margin-left: 200px;*/
+}
